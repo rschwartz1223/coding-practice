@@ -6,11 +6,8 @@ file can be run through Terminal using the command [$ data-structures.py -v]
 which also uses the provided doctests to check whether the code works.
 """
 
-"""
-A class to represent a graph data structure.
-"""
 class Graph:
-
+    
     def __init__(self, graph_dict = {}):
         """
         Parameters
